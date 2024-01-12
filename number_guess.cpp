@@ -13,8 +13,8 @@ cout<<"                 WELCOME TO NUMBER GUESSING GAME "<<endl<<"              
 	while(ch==1) 
 
 	{   int guess;
-	srand(time(0));
-        int number = 1 + (rand() % 100);
+	srand(time(0));   //random number generator
+        int number = 1 + (rand() % 100);       //generated between 1 to 100
         		cout<<"\n RULE -> YOU WILL GET 5 CHOICES \n GOOD LUCK :) \n\n";
 		
 
