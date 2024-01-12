@@ -12,12 +12,12 @@ class calculator
 	}
 
 
-T addition()
+T addition()     //addition of two numbers
 {
 	T sum=first+second;
 	cout<<" ADDITION :"<<sum;
 }
-T subtraction()
+T subtraction()      //subtraction of two numbers
 {   
 
 	
@@ -26,12 +26,12 @@ cout<<" SUBTRACTION :"<<subt;
 
 
 } 
-T multiplication()
+T multiplication()       //multiplication of two numbers
 {
 	T mul=first* second;
 	cout<<mul;
 }
-T division()
+T division()       // division of two numbers
 {
 	
 	T div = first/second;
